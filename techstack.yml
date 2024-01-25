@@ -1,0 +1,280 @@
+repo_name: nikhilesh1234/-ref-dbfit
+report_id: b7b1e68a6ae25a5419c2b1283bd733e9
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-25T18:43:55+00:00'
+requested_by: javornikolov
+provider: github
+branch: main
+detected_tools_count: 22
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/informix/src/integration-test/resources/create-acceptance-test-objects-informix.sql
+  detection_source: dbfit-java/informix/src/integration-test/resources/create-acceptance-test-objects-informix.sql
+  last_updated_by: MMatten
+  last_updated_on: 2015-12-30 20:26:01.000000000 Z
+- name: Snowflake
+  description: The data warehouse built for the cloud
+  website_url: https://www.snowflake.net/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Big Data as a Service
+  image_url: https://img.stackshare.io/service/5889/default_768181e102486f7411fe5f997dac1328d057c2cf.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/build.gradle
+  detection_source: dbfit-java/build.gradle
+  last_updated_by: Nick Pileggi
+  last_updated_on: 2021-03-12 01:19:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/releasing/Gemfile
+  detection_source: releasing/Gemfile
+  last_updated_by: Jake Benilov
+  last_updated_on: 2014-05-07 09:46:01.000000000 Z
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2022-01-10 10:00:08.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Christian Kraemer
+  last_updated_on: 2013-03-24 08:28:17.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/build.gradle
+  detection_source: dbfit-java/build.gradle
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2016-10-16 13:01:59.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/releasing/Gemfile
+  detection_source: releasing/Gemfile
+  last_updated_by: Jake Benilov
+  last_updated_on: 2014-05-07 09:46:01.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/releasing/Gemfile
+  detection_source: releasing/Gemfile
+  last_updated_by: Jake Benilov
+  last_updated_on: 2014-05-07 09:46:01.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2017-07-30 05:37:01.000000000 Z
+- name: Vagrant
+  description: A tool for building and distributing development environments
+  website_url: http://www.vagrantup.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Management
+  image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/test_vm/Vagrantfile
+  detection_source: test_vm/Vagrantfile
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2014-05-04 18:47:24.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit
+  detection_source: Repo Metadata
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/build.gradle
+  detection_source: dbfit-java/build.gradle
+  last_updated_by: Mark Matten
+  last_updated_on: 2017-05-28 10:59:30.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/build.gradle
+  detection_source: dbfit-java/build.gradle
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2021-03-12 15:29:28.000000000 Z
+- name: org.hamcrest:java-hamcrest
+  description: Hamcrest matcher library for Java
+  version: 2.0.0
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/build.gradle
+  detection_source: dbfit-java/build.gradle
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2022-01-01 19:36:50.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/dbfit-java/build.gradle
+  detection_source: dbfit-java/build.gradle
+  last_updated_by: Yavor Nikolov
+  last_updated_on: 2022-01-01 19:36:50.000000000 Z
+- name: travis
+  description: CLI and Ruby client library for Travis CI
+  package_url: https://rubygems.org/travis
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19112/default_c404399f249c45bc71a2c704a4b9bc234dcaac3e.png
+  detection_source_url: https://github.com/nikhilesh1234/-ref-dbfit/blob/main/releasing/Gemfile.lock
+  detection_source: releasing/Gemfile
+  last_updated_by: Jake Benilov
+  last_updated_on: 2014-05-07 09:46:01.000000000 Z
